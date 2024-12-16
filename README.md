@@ -33,57 +33,56 @@ A powerful, AI-enabled Slack bot for commercial real estate analysis, built with
 1. Clone the repository
 ```bash
 git clone https://github.com/tony-42069/slack-bot.git
+```
 
-Install dependencies
+2. Install dependencies
+```bash
+npm install
+```
 
-bashCopynpm install
-
-Configure environment variables in .env:
-
-envCopySLACK_BOT_TOKEN=xoxb-your-token
+3. Configure environment variables in `.env`:
+```env
+SLACK_BOT_TOKEN=xoxb-your-token
 SLACK_SIGNING_SECRET=your-signing-secret
 SLACK_APP_TOKEN=xapp-your-token
+```
 
-Start the bot
+4. Start the bot
+```bash
+node src/app.js
+```
 
-bashCopynode src/app.js
-🤝 Usage
+## 🤝 Usage
+- Mention the bot `@ABARE` in any channel
+- Use interactive buttons for quick actions:
+  - Analyze Property
+  - Check Loans
+- Available commands:
+  - `help` - Show available commands
+  - `analyze property [address]` - Run property analysis
+  - `check loans [requirements]` - Get loan recommendations
+  - `market data [location]` - Get market insights
 
-Mention the bot @ABARE in any channel
-Use interactive buttons for quick actions:
+## 🔒 Security
+- Socket Mode for secure communications
+- OAuth 2.0 authentication
+- Encrypted environment variables
+- Secure token handling
 
-Analyze Property
-Check Loans
+## 🛡️ License
+Proprietary - See [LICENSE](LICENSE) file for details
 
+## 🔄 Updates
+- Added interactive buttons for property analysis
+- Implemented loan assessment functionality
+- Enhanced error handling
+- Improved response formatting
 
-Available commands:
-
-help - Show available commands
-analyze property [address] - Run property analysis
-check loans [requirements] - Get loan recommendations
-market data [location] - Get market insights
-
-
-
-🔒 Security
-
-Socket Mode for secure communications
-OAuth 2.0 authentication
-Encrypted environment variables
-Secure token handling
-
-🛡️ License
-Proprietary - See LICENSE file for details
-🔄 Updates
-
-Added interactive buttons for property analysis
-Implemented loan assessment functionality
-Enhanced error handling
-Improved response formatting
-
-🤝 Contributing
+## 🤝 Contributing
 Currently not accepting external contributions. For internal use only.
-📞 Support
+
+## 📞 Support
 For support, please contact the development team.
 
+---
 Made with ⚡ by ABARE Technology
