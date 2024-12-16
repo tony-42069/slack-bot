@@ -5,7 +5,7 @@
 [![Slack App](https://img.shields.io/badge/Slack-App-4A154B?logo=slack)](https://api.slack.com/apps)
 [![Status](https://img.shields.io/badge/Status-Active-success)]()
 
-A powerful, AI-enabled Slack bot for commercial real estate analysis, built with Node.js and the Bolt framework. Part of the ABARE (Alliance Business Advisors Real Estate) technology suite.
+A powerful, AI-enabled Slack bot for commercial real estate analysis, built with Node.js and the Bolt framework. Part of the ABARE technology suite.
 
 ## 🚀 Features
 - Real-time CRE property analysis
